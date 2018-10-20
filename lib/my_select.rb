@@ -6,5 +6,6 @@ def my_select(collection)
   else
     "test"
   end
+  i += 1
     
 end
