@@ -5,6 +5,7 @@ def my_select(collection)
     if yield(collection[i]).even?
       newArray.push(collection[i])
       i += 1
+    end
   else
     "test"
   end
