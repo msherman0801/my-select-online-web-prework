@@ -3,7 +3,7 @@ def my_select(collection)
   if collection.length > 0
     yield(collection[i])
       collection[i]
-    i += 1
+      i += 1
   else
     "test"
   end
