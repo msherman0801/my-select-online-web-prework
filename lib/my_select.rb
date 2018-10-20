@@ -3,6 +3,7 @@ def my_select(collection)
   newArray = []
   if collection.length > 0
     if yield(collection[i]) == true
+      
       i += 1
     end
   else
