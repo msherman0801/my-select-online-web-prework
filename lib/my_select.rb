@@ -5,7 +5,6 @@ def my_select(collection)
     yield(collection)
       newArray.push(collection[i])
       i += 1
-    end
   else
     "test"
   end
