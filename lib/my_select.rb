@@ -4,6 +4,8 @@ def my_select(collection)
     yield(collection[i])
       collection[i]
     i += 1
+  else
+    "test"
   end
     
 end
