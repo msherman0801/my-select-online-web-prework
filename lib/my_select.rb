@@ -10,6 +10,6 @@ def my_select(collection)
   else
     "test"
   end
-  collection[i]
+  newArray
     
 end
