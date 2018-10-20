@@ -9,5 +9,6 @@ def my_select(collection)
   else
     "test"
   end
+  newArray
     
 end
